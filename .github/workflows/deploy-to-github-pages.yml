@@ -5,6 +5,11 @@ on:
     branches:
       - main # Or your primary branch
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write # Grant write permission for id-token
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
