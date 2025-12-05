@@ -3,7 +3,7 @@ const App = () => {
     <div className="bg-light p-2" style={{ height: "100vh" }}>
       <div className="container w-50 mt-4 p-2 shadow rounded bg-white">
         <div className="text-center h2">
-          <u>React App</u>
+          <u>React App - Automatic</u>
         </div>
         <hr />
         <div className="text-secondary">
